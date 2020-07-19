@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pannelloEsterno
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bump:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 10c94678edd6a5343a94f503c8e82a60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InconfidenceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerSurface7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c4efa69a3bd547646985090a0033d61c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _AmplFactor: 1
+    - _BaseMaskType: 0
+    - _BottomExponent: 0.5
+    - _BumpScale: 1
+    - _ChromaAlphaCutoff: 0.01
+    - _ChromaShadows: 0.02
+    - _ChromaToleranceA: 20
+    - _ChromaToleranceB: 15
+    - _ColorMask: 15
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _FadeEnd: 0.5
+    - _FadeStart: 0.5
+    - _FresnelPower: 0.16
+    - _GlossMapScale: 0
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HandAlpha: 1
+    - _Intensity: 0.5
+    - _LayerBlendMode0: 0
+    - _LayerBlendMode1: 0
+    - _LayerBlendMode2: 0
+    - _LayerBlendMode3: 0
+    - _LayerBlendMode4: 0
+    - _LayerBlendMode5: 0
+    - _LayerBlendMode6: 0
+    - _LayerBlendMode7: 0
+    - _LayerMaskType0: 0
+    - _LayerMaskType1: 0
+    - _LayerMaskType2: 0
+    - _LayerMaskType3: 0
+    - _LayerMaskType4: 0
+    - _LayerMaskType5: 0
+    - _LayerMaskType6: 0
+    - _LayerMaskType7: 0
+    - _LayerSampleMode0: 0
+    - _LayerSampleMode1: 0
+    - _LayerSampleMode2: 0
+    - _LayerSampleMode3: 0
+    - _LayerSampleMode4: 0
+    - _LayerSampleMode5: 0
+    - _LayerSampleMode6: 0
+    - _LayerSampleMode7: 0
+    - _Metallic: 0.58
+    - _MinVisibleAlpha: 0.15
+    - _Mode: 3
+    - _OcclusionStrength: 0.53
+    - _Parallax: 0.08
+    - _RimFactor: 0.65
+    - _RimPower: 3
+    - _Shininess: 0.03
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Thickness: 0.5
+    - _TopExponent: 0.5
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _Visible: 1
+    - _ZWrite: 0
+    - _face: 0
+    - _linearToSrgb: 0
+    - _premultiply: 0
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseMaskAxis: {r: 0, g: 1, b: 0, a: 0}
+    - _BaseMaskParameters: {r: 0, g: 0, b: 0, a: 0}
+    - _BottomColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBottom: {r: 0.0137021, g: 0.014443799, b: 0.0152085, a: 1}
+    - _ColorPrimary: {r: 0.39607796, g: 0.72549, b: 1, a: 1}
+    - _ColorTop: {r: 0.031896, g: 0.0343398, b: 0.0368894, a: 1}
+    - _DarkMultiplier: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    - _EmisColor: {r: 0.7803922, g: 0.7803922, b: 0.7803922, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HorizonColor: {r: 1, g: 1, b: 1, a: 0}
+    - _InnerColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor0: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor3: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor4: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor5: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor6: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerColor7: {r: 1, g: 1, b: 1, a: 1}
+    - _LayerMaskAxis0: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis1: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis2: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis3: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis4: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis5: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis6: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskAxis7: {r: 0, g: 1, b: 0, a: 0}
+    - _LayerMaskParameters0: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters1: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters2: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters3: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters4: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters5: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters6: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerMaskParameters7: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters0: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters1: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters2: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters3: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters4: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters5: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters6: {r: 0, g: 0, b: 0, a: 0}
+    - _LayerSampleParameters7: {r: 0, g: 0, b: 0, a: 0}
+    - _MyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.25999996, g: 0.18999997, b: 0.15999997, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Specular: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TopColor: {r: 1, g: 1, b: 1, a: 0}

@@ -1,0 +1,29 @@
+Salve colleghi,
+ho scritto questo READ ME per spiegare un po la gerarchia delle cartelle e file del prototipo che ho realizzato.
+Intanto nello zip 7z (programma di conversione eccellente) chiamato Vrainers ho messo lo stesso progetto zippato, 
+in quanto in passato con Drive ho perso dei file python per cause ignote, Zippandoli almeno sono sicuro che sono preservati.
+
+Fatta questa premessa iniziale vi introduco il progetto:
+
+come spero notate c'è un file denominato demo_multithread.py, questo file contiene lo script python della demo. Ovviamente, essendo una demo, ora è tutto in un unico file
+ma in futuro cercherò di organizzarlo in codici più piccoli e leggebili divisi in tante classi e librerie diverse. Per chi volesse eseguirlo sappia che dovrà installare un 
+pò di librerie. La maggiorparte, per chi mastica python e smanetta un po, saranno facilmente installabili (ad esempio usando pip), mentre alcune potrebbero dare errori perchè
+servono delle componenti aggiuntive (sempre installabili con pip ma che uno deve sgamare attraverso i codici di errore). Sinceramente queste librerie non me le ricordo al momento 
+ma in caso scrivetemi che errore vi da e mi ricorderò di come sistemare la cosa. 
+Il codice all'interno è altamente commentato, ogni cosa che ho fatto è stata ben specificata, ma se ci sono dubbi chiedete lo stesso
+
+poi c'è una cartella chiamata models, essa contiene i modelli già addestrati e salvati per analizzare la frasi utente. Solo il modello logistico presenta dei problemi
+in fase di caricamento ai quali lavorerà successivamente. Per ora così funziona più che bene
+
+la cartella data contiene il file csv per addestrare il modello, con frasi e label per indicare quella frase a che tipologia di risposta è associata.
+Ad esempio: inizio, iniziamo, inizia il corso oppure inizia la lezione hanno label 1, per indicare che sono frasi per iniziare e ci si aspetta un intro da parte dell'avatar
+vai avanti, prosegui, continua la lezione avranno label 3 ad esempio e così via.
+Se uno vuole aggiungere frasi me lo dica oppure deve modificare il file mantenendo la stessa formattazione. Ovvio che i modelli dovranno essere addestrati di nuovo
+(lo script per addestrare sta in Sviluppo nella cartella 01 - script di prova e si chiama test_doc2vec_similarity.py
+
+nella cartella lezioni public speaking ci sono i documenti da leggere per la lezione, io ho ritagliato queste lezioni prendendo parti del documento dato da matteo. 
+Purtroppo il simulatore di voci non le legge molto bene. Si possono editare i file senza problemi e senza compromettere l'esecuzione della demo
+basta che i nomi dei file restano gli stessi o non vengono cancellati, si può cambiare il contenuto ma non la gerarchia dei file
+
+la cartella lezioni di prova è come quella delle lezioni di publi speaking, ma sono una versione breve con frasi a caso che mi serviva per fare test rapidi senza dover aspettare
+che il prototipo mi leggesse tutto il pippozzo di lezione. attualmente la demo punta a questa cartella
